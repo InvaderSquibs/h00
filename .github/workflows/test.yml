@@ -8,4 +8,4 @@ jobs:
         run: echo Hello
       - name: Hello world action step
         id: hello
-        uses: jloganolson/h01@v1.2
+        uses: jloganolson/h01@v1.25
