@@ -7,4 +7,4 @@ jobs:
       - uses: actions/checkout@v2
       - name: Hello world action step
         id: hello
-        uses: jloganolson/h01@v1.4
+        uses: jloganolson/h01@latest
