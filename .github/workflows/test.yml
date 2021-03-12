@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Hello world action step
+      - name: Lint and comment
         id: hello
         uses: jloganolson/h01@master
