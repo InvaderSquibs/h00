@@ -6,3 +6,6 @@ jobs:
     steps:
       - name: Run a one-line script
         run: echo Hello
+      - name: Hello world action step
+        id: hello
+        uses: jloganolson/h01@v1.1
