@@ -1,10 +1,10 @@
-name: Test
+name: Aria Linter
 on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Lint and comment
+      - name: Aria lint test
         id: hello
-        uses: jloganolson/h01@master
+        uses: jloganolson/arialint-barebones@master
