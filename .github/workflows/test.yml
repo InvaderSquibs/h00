@@ -4,8 +4,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Run a one-line script
-        run: echo Hello
+      - uses: actions/checkout@v2
       - name: Hello world action step
         id: hello
         uses: jloganolson/h01@v1.26
